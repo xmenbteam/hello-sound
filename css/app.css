@@ -20,6 +20,10 @@ h1 {
 
 h2 {
   text-align: center;
+  background-color: #b85635;
+  padding: 1vmin;
+  border-radius: 2px;
+  border: 6px solid black;
 }
 
 #on-off {
@@ -90,4 +94,8 @@ input {
 .selected-waveform {
   border: 2px solid white;
   border-radius: 1vmin;
+}
+
+.test {
+  display: none;
 }
