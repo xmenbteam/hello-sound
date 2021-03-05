@@ -10,11 +10,22 @@ body {
 .application {
   width: 550px;
   margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 2vmin;
+}
+
+h2 {
+  text-align: center;
+}
+
+#on-off {
+  border-radius: 12vmin;
+  padding: 1vmin;
+  box-shadow: 0.2vmin 0.2vmin #3b3040;
 }
 
 div {
@@ -73,6 +84,7 @@ span,
 li,
 input {
   font-size: 1.5em;
+  text-align: center;
 }
 
 .selected-waveform {
